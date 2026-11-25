@@ -193,7 +193,7 @@ export const education: ResumeItem[] = [
     title: "Sandbox Session 2083: Build & Deploy Modern Web Apps with Next.js",
     subtitle: "Aadikavi Bhanubhakta Campus (Participation Certificate)",
     date: "10–11 July 2026",
-    image: "/images/sb1.jpg",
+    image: "/images/sb2.jpeg",
   },
 ];
 
