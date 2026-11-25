@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1e40af"/>
+      <stop offset="1" stop-color="#0f142e"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#g)"/>
+  <rect x="60" y="60" width="680" height="330" rx="16" fill="#0d0d1f" opacity="0.65" stroke="#67e8f9" stroke-opacity="0.4"/>
+  <circle cx="92" cy="92" r="7" fill="#67e8f9"/>
+  <circle cx="116" cy="92" r="7" fill="#93c5fd"/>
+  <circle cx="140" cy="92" r="7" fill="#3b82f6"/>
+  <rect x="92" y="130" width="300" height="16" rx="8" fill="#67e8f9" opacity="0.6"/>
+  <rect x="92" y="164" width="520" height="10" rx="5" fill="#93c5fd" opacity="0.35"/>
+  <rect x="92" y="188" width="460" height="10" rx="5" fill="#93c5fd" opacity="0.25"/>
+  <rect x="92" y="240" width="190" height="110" rx="10" fill="#1e40af" opacity="0.55"/>
+  <rect x="304" y="240" width="190" height="110" rx="10" fill="#1e40af" opacity="0.4"/>
+  <rect x="516" y="240" width="190" height="110" rx="10" fill="#1e40af" opacity="0.3"/>
+  <text x="400" y="420" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="600" fill="#a5f3fc">Student Records</text>
+</svg>

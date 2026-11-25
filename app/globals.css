@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+/* Design tokens (Tailwind v4 reads these from @theme) */
+@theme inline {
+  --color-background: #0d0d1f;
+  --color-foreground: #e5e7eb;
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #0d0d1f;
+  color: #e5e7eb;
+  font-family: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+}
+
+/* Offset anchored sections so the sticky navbar does not cover headings */
+section[id] {
+  scroll-margin-top: 80px;
+}
+
+/* react-multi-carousel: keep dots tidy on a dark background */
+.react-multi-carousel-dot button {
+  border-color: #1e40af;
+  background: transparent;
+}
+.react-multi-carousel-dot--active button {
+  background: #67e8f9;
+  border-color: #67e8f9;
+}
